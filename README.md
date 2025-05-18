@@ -7,8 +7,8 @@ Built to be cloned, extended and shipped — fast.
 
 ## 🚀 Tech Stack
 
--   ✅ [Next.js 14+](https://nextjs.org/) with App Router
--   🎨 [Tailwind CSS](https://tailwindcss.com/)
+-   ✅ [Next.js 15+](https://nextjs.org/) with App Router
+-   🎨 [Tailwind CSS 4+](https://tailwindcss.com/)
 -   🧠 TypeScript support (out of the box)
 
 ---
@@ -18,8 +18,8 @@ Built to be cloned, extended and shipped — fast.
 Clone this project using [`degit`](https://github.com/Rich-Harris/degit):
 
 ```sh
-npx degit fabioespindula/nextjs your-project-name
-cd your-project-name
+npx degit fabioespindula/nextjs yourProjectName
+cd yourProjectName
 npm install
 npm run dev
 ```
@@ -65,6 +65,12 @@ Then open: [http://localhost:3000](http://localhost:3000)
 
 Fork it, clone it, improve it.  
 Pull requests are welcome if you want to help evolve this base.
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
