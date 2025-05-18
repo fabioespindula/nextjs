@@ -9,8 +9,7 @@ export const metadata: Metadata = {
 
 const inter = Inter({
     subsets: ["latin"],
-    display: "swap",
-    variable: "--font-inter" // opcional: cria uma custom property CSS
+    display: "swap"
 });
 
 export default function RootLayout({
@@ -20,7 +19,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${inter.className} antialiased`}>{children}</body>
+            <body suppressHydrationWarning className={`${inter.className} antialiased`}>
+                {children}
+            </body>
         </html>
     );
 }
