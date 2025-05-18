@@ -1,80 +1,74 @@
-### 📄 README.md
-
-````md
 # ⚡️ Next.js Starter Boilerplate
 
-Minimal and scalable boilerplate for modern web apps using **Next.js** and **Tailwind CSS**.
-
-> Built to be cloned, extended, and shipped, fast!
+Minimal, scalable and production-ready boilerplate using **Next.js** + **Tailwind CSS**.  
+Built to be cloned, extended and shipped — fast.
 
 ---
 
 ## 🚀 Tech Stack
 
--   ✅ [Next.js 14+](https://nextjs.org/) (App Router)
+-   ✅ [Next.js 14+](https://nextjs.org/) with App Router
 -   🎨 [Tailwind CSS](https://tailwindcss.com/)
--   🧠 TypeScript ready (out of the box)
+-   🧠 TypeScript support (out of the box)
 
 ---
 
 ## 📦 Getting Started
 
-Clone this repository using [`degit`](https://github.com/Rich-Harris/degit):
+Clone this project using [`degit`](https://github.com/Rich-Harris/degit):
 
-```bash
+```sh
 npx degit fabioespindula/nextjs your-project-name
 cd your-project-name
 npm install
 npm run dev
 ```
-````
 
-Then visit: [http://localhost:3000](http://localhost:3000)
+Then open: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
-```bash
+```sh
 .
-├── app/               # Next.js App Router pages
-├── components/        # Shared React components
+├── app/               # App Router pages and layouts
+├── components/        # Shared UI components
 ├── public/            # Static assets
-├── styles/            # Tailwind CSS files
-└── tailwind.config.js
+├── styles/            # Tailwind CSS setup
+└── tailwind.config.js # Tailwind config
 ```
 
 ---
 
-## 🛠️ Commands
+## 🛠️ Scripts
 
 | Command         | Description             |
 | --------------- | ----------------------- |
-| `npm run dev`   | Run in dev mode         |
-| `npm run build` | Create production build |
-| `npm run start` | Run production server   |
+| `npm run dev`   | Start dev server        |
+| `npm run build` | Build for production    |
+| `npm run start` | Start production server |
 
 ---
 
-## 📌 Coming Soon
+## 📌 Planned Features
 
--   [ ] API wrapper using `ofetch`
--   [ ] Schema validation with `zod`
+-   [ ] API wrapper using [`ofetch`](https://github.com/unjs/ofetch)
+-   [ ] Schema validation with [`zod`](https://zod.dev)
 -   [ ] Custom layout system
 -   [ ] SEO-friendly metadata defaults
--   [ ] Reusable UI components (maybe ShadCN)
+-   [ ] UI kit using `shadcn/ui`
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork and create your own version, or submit pull requests if you’d like to help evolve this base.
+Fork it, clone it, improve it.  
+Pull requests are welcome if you want to help evolve this base.
 
 ---
 
 ## 📫 Contact
 
-Made with 💻 by [@fabioespindula](https://github.com/fabioespindula)
+Made with 💻 by [@fabioespindula](https://github.com/fabioespindula)  
 Open to improvements and suggestions.
-
-``
